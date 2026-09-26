@@ -3,19 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Финансовый портал — Понятные финансы в Израиле</title>
-<meta http-equiv="refresh" content="0;url=/finance-portal/">
-<link rel="canonical" href="https://exodus611.github.io/finance-portal/index.html">
+<title>exodus611 — проекты: книга о памяти проектов, финансовый портал, сканер NASDAQ</title>
+<meta name="description" content="Проекты exodus611: книга Never Start from Scratch (метод памяти для проектов с ИИ), бесплатный набор для читателя, финансовый портал на русском, сканер NASDAQ с открытым журналом и releasecheck — проверка файлов перед публикацией.">
+<link rel="canonical" href="https://exodus611.github.io/">
 <style>
-body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:#f4f1e9;color:#15251f;display:grid;place-items:center;min-height:100vh;margin:0}
-a{color:#08775a;font-weight:700;text-decoration:none}
+  :root{--ink:#15251f;--muted:#5b6b63;--bg:#f4f1e9;--card:#fffdf8;--edge:#ddd6c6;--accent:#08775a}
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px}
+  h1{font-size:32px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);margin:0 0 34px}
+  .card{display:block;background:var(--card);border:1px solid var(--edge);border-radius:14px;padding:20px 22px;margin:0 0 14px;text-decoration:none;color:inherit;transition:border-color .12s ease}
+  .card:hover{border-color:var(--accent)}
+  .card h2{margin:0 0 6px;font-size:19px}
+  .card p{margin:0;color:var(--muted);font-size:15.5px}
+  .card .go{color:var(--accent);font-weight:600;font-size:14.5px}
+  .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);border:1px solid var(--edge);border-radius:999px;padding:2px 9px;margin:0 0 10px}
+  .links a{color:var(--accent);font-weight:600;text-decoration:none}
+  footer{margin-top:34px;color:var(--muted);font-size:14.5px;border-top:1px solid var(--edge);padding-top:18px}
 </style>
 </head>
 <body>
-<div style="text-align:center;padding:20px">
-<p style="font-size:16px;margin:0 0 12px">Перенаправляем на <a href="/finance-portal/">Финансовый портал</a>…</p>
-<p style="font-size:13px;margin:0"><a href="/finance-portal/">Открыть сайт →</a></p>
+<div class="wrap">
+
+  <h1>exodus611</h1>
+  <p class="sub">Проекты, которые можно потрогать: книга, набор для читателя, портал, сканер и инструменты. Всё публичное и бесплатное.</p>
+
+  <span class="tag">книга · English</span>
+  <a class="card" href="https://www.amazon.com/dp/B0HKVZ3RSG">
+    <h2>Never Start from Scratch: Give Your Projects a Memory That Never Forgets</h2>
+    <p>Daniel Marlow. Как перестать каждый раз объяснять проекты с нуля: репозиторий как постоянная память, сессия как временный работник. Kindle, бесплатно по подписке Kindle Unlimited. <span class="go">Открыть на Amazon →</span></p>
+  </a>
+
+  <a class="card" href="https://exodus611.github.io/project-memory-starter-kit/">
+    <h2>Project Memory Starter Kit <span style="font-weight:400">— бесплатный набор для читателя</span></h2>
+    <p>Один файл, один блок. Три строки заполняешь один раз, дальше вставляешь одно сообщение за сессию — остальное ИИ делает сам. Без установки и без оплаты. <span class="go">Скачать →</span></p>
+  </a>
+
+  <a class="card" href="https://exodus611.github.io/nasdaq-eod-momentum-scanner/">
+    <h2>Сканер NASDAQ — живые результаты <span style="font-weight:400">(бумажная торговля)</span></h2>
+    <p>Тот самый сканер из книги: каждый вечер после закрытия рынка США проверяет одно условие и публикует журнал по реальным ценам открытия. Ордера не отправляются. Это доказательство метода, а не обещание доходности.</p>
+    <p style="margin-top:8px"><span class="go">Открыть дашборд →</span> <span style="color:var(--muted)">· обновляется ежедневно</span></p>
+  </a>
+
+  <a class="card" href="https://exodus611.github.io/finance-portal/">
+    <h2>Финансовый портал <span style="font-weight:400">— понятные финансы в Израиле</span></h2>
+    <p>Калькуляторы и разборы на русском: зарплата, арнона, машканта, пенсия, налоги, права работника. Без регистрации, без рекламы.</p>
+    <p style="margin-top:8px"><span class="go">Открыть портал →</span></p>
+  </a>
+
+  <a class="card" href="https://github.com/exodus611/releasecheck">
+    <h2>releasecheck <span style="font-weight:400">— проверка файлов перед публикацией</span></h2>
+    <p>Инструмент для командной строки: находит дубликаты, забытые архивы, метаданные, секреты (в том числе внутри docx, epub и zip), битые ссылки и заглушки вроде «TODO». Каждый отчёт заканчивается разделом о том, чего проверка не доказывает.</p>
+    <p style="margin-top:8px"><span class="go">Открыть на GitHub →</span></p>
+  </a>
+
+  <footer class="links">
+    Остальные репозитории — на <a href="https://github.com/exodus611">github.com/exodus611</a>.<br>
+    Книга неофициальная и не связана с GitHub, Inc.; GITHUB — зарегистрированная торговая марка GitHub, Inc. Сканер ведёт бумажный журнал, ордера не отправляются, это не финансовая рекомендация.
+  </footer>
+
 </div>
-<script>location.replace("/finance-portal/");</script>
 </body>
 </html>

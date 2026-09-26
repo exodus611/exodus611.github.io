@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://exodus611.github.io/finance-portal/sitemap.xml
+Sitemap: https://exodus611.github.io/sitemap.xml
